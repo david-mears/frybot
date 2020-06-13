@@ -5,8 +5,8 @@ Try out the generator with:
 ```
 # ruby interpreter e.g. irb or pry
 
-require './good_morning.rb'
-generate_phrase
+> require './good_morning.rb'
+> try_out
 ```
 
 To add more synonyms for 'say':
