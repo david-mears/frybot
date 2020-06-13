@@ -99,7 +99,7 @@ guess
 imply
 orate
 option
-refer to
+refer to it
 signify
 denote
 intimate
@@ -114,7 +114,6 @@ take
 lecture
 reckon
 protest
-refer
 round
 apprise
 spell
@@ -183,6 +182,7 @@ exhibit
 display
 hear
 discuss
+refer
 mouth
 sing
 mutter
@@ -226,7 +226,7 @@ blab
 point to the fact of there being
 mumble
 hypothesize
-allude
+allude to
 rejoin
 declaim
 blurt
@@ -645,7 +645,6 @@ calculate
 figure
 foreshow
 herald
-vaticinate
 threaten
 hope
 forewarn

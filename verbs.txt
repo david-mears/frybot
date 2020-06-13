@@ -101,7 +101,7 @@ guess
 imply
 orate
 option
-refer to
+refer to it
 signify
 denote
 intimate
@@ -116,7 +116,6 @@ take
 lecture
 reckon
 protest
-refer
 round
 apprise
 spell
@@ -330,7 +329,7 @@ point to the fact of there being
 mumble
 phrase
 hypothesize
-allude
+allude to
 rejoin
 declaim
 put into words
@@ -873,7 +872,6 @@ guess
 speculate
 warn
 herald
-vaticinate
 project
 threaten
 count on
