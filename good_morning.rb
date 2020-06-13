@@ -18,7 +18,7 @@
 
 @words_ending_ly = []
 
-File.new('adverbs.txt', 'r').read.each_line do |line|
+File.new('adverbs_no_duplicates.txt', 'r').read.each_line do |line|
   @words_ending_ly.push(line.tr("\n", ""))
 end
 
@@ -31,7 +31,7 @@ end
 # Adverbs which modify other adverbs
 @ad_adverbs = ['perhaps', 'somewhat', 'tolerably', 'slightly', 'more or less', 'a little', 'sort of', 'kind of', 'fairly', 'altogether', 'perfectly', 'utterly', 'wholly', 'relatively', 'unusually', 'almost', 'nearly', 'nigh-on', 'ever so', 'so', 'quite', 'not quite', 'rather', 'not so', 'not very', 'very', 'overly', 'too', 'not too']
 
-@punctuations = [
+@punctuations_for_interrupting_clause = [
   [", ", ", "], [", ", ", "], [", ", ", "], [", ", ", "], [", ", ", "],
   [" - ", " - "],
   [" - ", "! - "],
@@ -60,7 +60,7 @@ def generate_phrase
     [ad_adverb, @words_ending_ly.sample].compact.join(" ")
   )}
 
-  punc = @punctuations.sample
+  punc = @punctuations_for_interrupting_clause.sample
 
   interrupting_clause = [
     "as you", ly_words.join(' and '), @say_synonyms.sample

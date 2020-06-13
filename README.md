@@ -9,12 +9,14 @@ Try out the generator with:
 > try_out
 ```
 
-To add more synonyms for 'say':
+To add more synonyms for 'say' or more adverbs:
 
-1) append to say_synonyms.txt.
+1) append to say_synonyms.txt or adverbs.txt.
 2) run `ruby remove_duplicate_lines.rb`
 
-The cronjob I use to run it every five hours on my laptop was:
+twitter.rb posts to Twitter.
+
+The cronjob I use to run twitter.rb every five hours on my laptop was:
 
 ```
 0 */5 * * * cd ~/projects/[repo] && ruby twitter.rb
