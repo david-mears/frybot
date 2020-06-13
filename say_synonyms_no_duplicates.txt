@@ -1,0 +1,1022 @@
+state
+speak
+utter
+declare
+tell
+assert
+pronounce
+express
+voice
+articulate
+enunciate
+avow
+affirm
+announce
+mention
+allege
+hold
+put into words
+talk
+remark
+aver
+opine
+answer
+vocalize
+maintain
+divulge
+recite
+confess
+answer back
+proclaim
+deliver
+word
+communicate
+convey
+suggest
+argue
+observe
+read
+order
+enounce
+phrase
+put
+disclose
+verbalize
+indicate
+report
+asseverate
+reveal
+vote
+write in
+own up
+respond
+command
+attempt to influence
+suppose
+claim
+contend
+repeat
+annunciate
+recount
+note
+comment
+author
+make known
+reply
+show
+avouch
+profess
+part
+chance
+think
+impart
+impose
+turn over in your mind
+imagine
+breathe
+nearly
+stipulate
+register
+swear
+crack
+formulate
+enjoin
+set forth
+come out with
+present
+rehearse
+speak out
+dictate
+debate
+tattle
+offer
+let the cat out of the bag
+submit
+sound
+testify
+insist
+guess
+imply
+orate
+option
+refer to
+signify
+denote
+intimate
+suffrage
+whisper
+mean to say
+place
+bout
+approximate
+roughly
+take
+lecture
+reckon
+protest
+refer
+round
+apprise
+spell
+specify
+posit
+drawl
+couch
+record
+add
+put across
+gab
+predicate
+judge
+narrate
+address
+put forth
+relate
+plead
+call
+weight
+sway
+clout
+authorize
+return
+publish
+interpret
+express an opinion
+have
+advertise
+confirm
+like
+understand
+vocalise
+explain
+word out
+adjudge
+word it
+rewrite history
+quote
+surmise
+call to mind
+shot
+believe
+take leave of your senses
+babble
+control the narrative
+raise for discussion
+prescribe
+force
+consider
+describe
+tell us again
+voice out
+inform
+break your silence
+notify
+conjecture
+come to a decision
+practically
+outline
+franchise
+chatter
+render
+vent
+exhibit
+
+display
+hear
+discuss
+mouth
+sing
+mutter
+make your point
+put too fine a point on it
+determine
+include
+frame
+identify
+demonstrate
+assume
+estimate
+admit
+learn
+clarify
+expect
+highlight
+stress
+reflect
+represent
+leak
+chat
+cry
+rap
+ask
+speculate
+point out
+converse
+bid yourself
+shout
+postulate
+presume
+lip
+squeal
+prattle
+rattle
+operate your vocal cords
+oscillate your voicebox
+vibrate
+impugn
+blab
+point to the fact of there being
+mumble
+hypothesize
+allude
+rejoin
+declaim
+blurt
+murmur
+make
+give
+play
+charge
+provide
+go
+join
+run
+fight
+study
+shoot
+share
+take note of its so being
+muddy the waters
+direct
+number
+establish
+rule
+notice
+extend
+rate
+fancy
+throw
+measure
+demand
+perform
+regard
+pitch
+require me to say
+exercise your right to free speech
+hold the waiter's nose squarely
+telecommunicate
+telepathize
+influence the narrative
+deny
+dispute
+use
+serve
+credit
+appreciate
+deliberate
+prove
+count
+broadcast
+signal
+uphold
+manifest
+betray
+craft
+dream
+write
+hint
+get off your chest
+suspect
+occur
+contemplate
+designate
+advise
+promise
+justify
+circulate
+assess
+spill
+swallow
+con
+assure
+heed
+uncover
+supplement
+supply
+educate us
+teach us
+venture
+gossip
+conceive
+illustrate
+cite
+evaluate
+emphasize
+translate
+roar
+throw out
+detect
+instruct
+put forward
+perceive
+replicate
+pray
+warn
+spout
+yell
+confer
+meditate
+enumerate
+remind
+depict
+bubble
+chant
+summarize
+bring out
+prate
+jaw
+attest
+ventilate your oesophagus
+react to events
+belt out
+croon
+intone
+warble
+carol
+chirp
+chirrup
+groan
+pipe up
+purr
+resound
+solo
+whine
+burst forth
+fink
+snitch
+bel canto
+squeak
+creak
+yelp
+low
+gnarl
+snap
+yip
+bay
+bark
+growl
+grovel
+beg
+beseech
+advocate
+retract
+abjure
+solicit
+celebrate in advance
+move
+beat the drum for it
+plug
+unload on whoever will listen
+greet me
+impel me to say
+thrust in my face
+nag
+obtest
+obsecrate
+brace us for
+take back control of
+register to vote for
+lead us to expect
+cheerlead
+abstain from providing
+publicize
+characterize
+expound
+spy
+ponder
+append
+showcase
+yak
+recapitulate
+predict
+rant
+snarl
+annotate
+spiel
+premise
+evince
+restate
+patter
+grumble
+insinuate
+broach
+bring forward
+discharge
+eject
+give off
+issue
+send out
+radiate
+give out
+send forth
+expel
+exude
+release
+excrete
+throw off
+let out
+emanate
+quote Wilde
+dismiss all contrary evidence
+add insult to injury
+think appropriate to say
+hasten to add
+remember the phrase from your childhood
+expect not to cause offence
+force me to say
+begrudge me for not saying
+execute your father's dying wishes
+will recall from previous such occasions
+insult God and country
+mirror my own thoughts
+take the words out of my mouth
+anticipate my own remarks
+hoped I would agree
+name it
+have no qualms in saying
+dredge up
+have reminded me
+jog my memory
+reply-all
+are programmed to tweet
+tempt fate
+make an exception
+recommend
+coin a phrase
+elicit from me
+would have it
+christen it
+describe it
+dodge the question
+miss the point
+imitate
+plagiarise
+play God
+mimick
+swoon
+wrote in your memoirs
+appear to be the expert on the matter
+mentioned before
+exhale
+ooze
+belch
+spew
+vomit
+void your bowels
+launch your meteorological career
+disgorge
+pass off as your own idea
+secrete
+transmit
+erupt
+gush
+blurt out
+send
+pour out
+shed
+evacuate
+let loose
+give forth
+stream
+cast
+pour
+squirt
+beam
+produce
+blow
+ejaculate
+spurt
+expire
+fail to eliminate
+spew out
+throw up
+extravasate
+effuse
+pour forth
+loose
+reek
+issue from a position of knowledge
+share with the class
+cast forth
+flow
+project
+drip
+extrude
+give vent to
+seep
+drain
+yield
+output
+puff
+propose
+deposit
+presuppose
+take for granted
+pose
+propound
+situate
+fix
+put to those present
+mansplain
+open your mouth and remove all doubt
+eliminate yourself from being taken seriously
+whimper
+titter
+giggle
+laugh
+joke
+smile
+grin
+grimace
+taunt
+mock the very idea
+snicker
+whoop
+shriek
+chuckle
+chortle
+convulse with glee
+guffaw
+fracture the silence
+smirk
+simper
+glare
+glower
+pout
+sulk
+fret
+sigh
+caterwaul
+blubber
+mewl
+mew
+yowl
+hype it up
+bugle
+jinx it
+satirize society
+quip
+josh
+needle
+revel
+tease
+kid
+call forth from the abyss
+fall for
+trust
+keep the faith
+expect me to believe
+scream
+spittle
+spit
+splurge
+splurt
+alert us
+sound the alarm
+raise my hackles
+set
+wink
+advance
+position
+theorize
+go forth into it
+station
+submitted
+thesis
+will remember it
+conclude
+stick
+park
+deem
+fancy me interested in hearing
+gather
+set upon
+view
+accept
+post
+accredit
+plant
+say your piece
+attach weight to
+become certain of
+become convinced of
+become credulous
+doctor
+become of the opinion
+convince me to buy shares in
+hail
+count on
+give credence to
+have faith in
+have no doubt
+lap up
+place confidence in
+bank
+presume true
+reckon on
+rest assured
+take as gospel
+dump
+lay down
+put down
+forecast
+foretell
+anticipate
+prognosticate
+foresee
+portend
+presage
+foreshadow
+augur
+prefigure
+bode
+auspicate
+betoken
+prophesy
+forebode
+envisage
+omen
+bespeak
+envision
+calculate
+figure
+foreshow
+herald
+vaticinate
+threaten
+hope
+forewarn
+see
+plan
+plan for
+wager
+drive home the point
+infer
+witness
+make common knowledge
+divine
+adumbrate
+soothsay
+pre-empt
+foretoken
+previse
+prognose
+tell in advance
+hazard a guess
+look forward to it
+paint a picture
+foreknow
+gamble
+stake your reputation on
+bet
+risk
+hazard
+make up at random
+have no possible way of knowing
+punt
+make your bet
+stake out your position
+dare
+plunge
+parlay
+commit
+back me up
+betcha
+take a chance
+put it
+up the stakes
+raise
+jeopardize your honour
+pledge
+intervene
+tempt fortune
+wish
+desire
+turn thought to words
+aspire
+want
+have faith
+confide
+long for
+guarantee
+hit upon the truth
+compromise the truth
+lie
+fib
+prevaricate
+fabricate
+misrepresent
+dwell upon
+set the scene
+set the stage
+set the tone
+clairvoy
+bid me
+explore
+attack
+criticize
+denounce
+challenge orthodoxy
+censure
+assail
+gainsay
+call into question
+question
+put in doubt
+blame me for
+lullaby
+conjure
+invoke
+summon
+doubt
+contradict
+traverse
+accuse
+impeach
+disparage
+reproach
+controvert
+condemn
+contest
+find fault with
+disprove
+disavow
+betray those who came before you
+figure out
+malign
+refute
+vilify
+blast
+deny the negative of
+contravene
+resist the temptation not to point out
+slam
+reprove
+arraign
+denigrate
+make a point of refusing to deny
+deprecate
+asperse
+slander
+derogate
+shout into the void
+wrong me by so saying
+inveigh
+slur
+disaffirm everything you and I hold dear
+smear
+trash it
+take it to task
+damn
+call to account
+incriminate
+lambaste
+slate
+besmirch its name
+defame
+libel
+object
+decry
+scorn
+rebut
+belie
+attempt to dictate consensus upon
+traduce
+confront the truth
+analyse
+rebuke
+fly in the face of all evidence
+repudiate
+reprimand
+scold
+upbraid
+analyze
+review
+investigate
+scrutinize my response
+run up the flagpole
+bury the lede
+test the waters
+test my patience
+consider worth remarking
+discuss in your 1996 paper
+parse
+inspect
+break down
+condescend
+deign to say
+carry the conversation
+dissect
+probe
+assay
+anatomize
+inquire into
+interpret the evidence
+reflect on
+go into excessive depth
+view it
+examine in detail
+conduct an in-depth analysis
+separate from the realm of the unsaid
+trace
+sketch
+sketch out
+caricature
+depict it
+profile
+draw
+like to say
+overplay your hand
+license
+give your blessing
+give it the go-ahead
+give it the green light
+rubber-stamp it
+commission another Slot of Time
+accredit it
+okay it
+warrant
+allow to happen
+let pass
+suffer it to be
+countenance
+blunder
+let slip
+transgress
+stray from the righteous path
+drift towards saying
+lapse
+miscalculate
+wander from 
+stumble
+stutter
+splutter
+hesitate to say
+misjudge
+deviate
+offend everyone in the room
+mistake
+make a mistake
+will live to regret saying
+misapprehend
+gaffe
+goof
+bungle
+are wrong about
+are mistaken about
+illuminate
+blow your only chance by saying
+confound me
+conflate with a polite greeting
+ramble on and on
+mess up
+botch
+misconstrue
+are incorrect about
+misconceive
+foul up
+meander
+miss
+misinterpret
+depart from what you know to be true
+insert
+digress
+overlook
+misreckon
+get wrong
+cast in a positive light
+violate my boundaries
+erode our implicit trust
+enter
+inject
+include me in the conversation
+enclose
+attach to an email
+interpolate
+add on
+butt in
+interrupt
+slot in
+slide in
+talk sense
+cut in
+thunder
+rumble
+boom
+bellow
+storm
+roll around in your mouth
+clap
+bawl
+rage
+peal
+appeal to the gods
+fulminate
+reverberate
+explode
+blare
+snort
+snort forth
+trumpet
+trombone
+ring out
+feel out with your tongue
+jabber
+spread the rumour
+spread around
+let me know
+are not the first to say
+yabber
+drone
+are not the first to notice
+philosophise
+put to general discussion
+dig up old grudges from the past
+find out
+know to be true
+understand to be the case
+work out
+discover for yourself
+realize
+find it
+decipher
+comprehend
+solve
+grasp
+resolve
+unravel
+seek to mislead the court
+decode
+would have me understand
+fathom
+realise
+found out last night
+puzzle out
+work into conversation
+decide
+discern
+think it
+plant the idea
+apprehend
+hear on the grapevine
+suss out
+include in your opening remarks
+ferret out
+pry out of me
+wheedle out of me
+make clear
+picture it
+work up the courage to request
+request
+decrypt
+dig up
+recognize
+collide with the evidence
+weep
+wail
+sob
+burp
+put a fine point on it
+wheeze
+burp forth
+consider it
+deem it
+label it
+colour it
+define it
+chunter from a sedentary position
+yeet
+patronize us
+stoop to say
+lower yourself to say
+condescend to say
+vouchsafe
+damn with faint praise
+talk it down
+submit for consideration
+treat as an interesting topic
+arrogate
+humble yourself to say
+socialise by saying
+bond with me over
+extract from me
+intercommunicate
+settle for
+demean your office
+use as your opening gambit
+consent to
+conspire to make it
+overpromise
+egg Time on
+conceal your real feelings
+permit
