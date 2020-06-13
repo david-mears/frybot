@@ -76,20 +76,22 @@ def generate_phrase
     "as you", ly_words.join(' and '), say_synonym
   ].join(' ')
 
+  ["Good#{punc[0]}#{interrupting_clause}#{punc[1]}#{time_of_day}.", ly_words, say_synonym]
+end
+
+def time_of_day
   case Time.now.hour
   when 20..24
-    @time_of_day = 'night'
+    return 'night'
   when 0..4
-    @time_of_day = 'night'
+    return 'night'
   when 17..19
-    @time_of_day = 'evening'
+    return 'evening'
   when 12..16
-    @time_of_day = 'day'
+    return %w[afternoon day].sample
   else
-    @time_of_day = 'morning'
+    return 'morning'
   end
-
-  ["Good#{punc[0]}#{interrupting_clause}#{punc[1]}#{@time_of_day}.", ly_words, say_synonym]
 end
 
 def try_out

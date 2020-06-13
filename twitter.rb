@@ -11,7 +11,7 @@ end
 @old_greetings = []
 
 File.new('phrases_already_posted_to_twitter.txt', 'r').read.each_line do |line|
-  old_greetings.push(line.tr("\n"))
+  @old_greetings.push(line.tr("\n", ""))
 end
 
 @favourites_store_phrases = []
@@ -25,6 +25,9 @@ def generate_phrase_and_update_twitter
 
   if @old_greetings.include? new_greeting
     # retry
+    generate_phrase_and_update_twitter
+  elsif !new_greeting.match(time_of_day)
+    # make sure we don't say 'good morning' in the evening
     generate_phrase_and_update_twitter
   else
     @client.update(new_greeting)
