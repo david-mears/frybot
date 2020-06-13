@@ -1,4 +1,4 @@
-read_file_names = ['say_synonyms', 'adverbs']
+read_file_names = ['verbs', 'adverbs']
 
 read_file_names.each do |file_name|
   read_file = File.new(file_name + ".txt", "r").read

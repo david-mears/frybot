@@ -11,7 +11,7 @@ Try out the generator with:
 
 To add more synonyms for 'say' or more adverbs:
 
-1) append to say_synonyms.txt or adverbs.txt.
+1) append to verbs.txt or adverbs.txt.
 2) run `ruby remove_duplicate_lines.rb`
 
 twitter.rb posts to Twitter.

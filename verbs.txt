@@ -53,7 +53,7 @@ respond
 utter
 pronounce
 command
-attempt to influence
+attempt to reassure yourself
 suppose
 claim
 contend
@@ -177,7 +177,7 @@ break your silence
 notify
 conjecture
 come to a decision
-practically
+
 outline
 franchise
 chatter
@@ -389,7 +389,7 @@ credit
 appreciate
 deliberate
 prove
-count
+
 broadcast
 signal
 uphold
@@ -404,7 +404,7 @@ write
 hint
 get off your chest
 suspect
-occur
+
 contemplate
 designate
 advise
@@ -612,7 +612,7 @@ throw out
 vomit
 spout
 vent
-void your bowels
+
 launch your meteorological career
 disgorge
 pass off as your own idea
@@ -647,7 +647,7 @@ fail to eliminate
 ooze
 spew out
 throw up
-extravasate
+
 effuse
 pour forth
 articulate
@@ -662,7 +662,7 @@ share with the class
 share
 cast forth
 disclose
-flow
+flower
 deliver
 project
 drip
@@ -785,7 +785,7 @@ will remember it
 conclude
 take
 claim
-stick
+
 admit
 affirm
 park
@@ -835,7 +835,7 @@ reckon on
 rest assured
 swallow
 take as gospel
-dump
+dump in our collective lap
 lay down
 put down
 forecast
@@ -1129,7 +1129,7 @@ stray from the righteous path
 drift towards saying
 lapse
 miscalculate
-wander from 
+
 stumble
 stutter
 splutter
@@ -1236,7 +1236,7 @@ find it
 learn
 decipher
 comprehend
-solve
+
 figure out
 tell
 uncover

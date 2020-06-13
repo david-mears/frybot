@@ -51,7 +51,7 @@ write in
 own up
 respond
 command
-attempt to influence
+attempt to reassure yourself
 suppose
 claim
 contend
@@ -173,14 +173,13 @@ break your silence
 notify
 conjecture
 come to a decision
-practically
+
 outline
 franchise
 chatter
 render
 vent
 exhibit
-
 display
 hear
 discuss
@@ -274,7 +273,6 @@ credit
 appreciate
 deliberate
 prove
-count
 broadcast
 signal
 uphold
@@ -286,7 +284,6 @@ write
 hint
 get off your chest
 suspect
-occur
 contemplate
 designate
 advise
@@ -471,7 +468,6 @@ ooze
 belch
 spew
 vomit
-void your bowels
 launch your meteorological career
 disgorge
 pass off as your own idea
@@ -499,7 +495,6 @@ expire
 fail to eliminate
 spew out
 throw up
-extravasate
 effuse
 pour forth
 loose
@@ -507,7 +502,7 @@ reek
 issue from a position of knowledge
 share with the class
 cast forth
-flow
+flower
 project
 drip
 extrude
@@ -594,7 +589,6 @@ submitted
 thesis
 will remember it
 conclude
-stick
 park
 deem
 fancy me interested in hearing
@@ -625,7 +619,7 @@ presume true
 reckon on
 rest assured
 take as gospel
-dump
+dump in our collective lap
 lay down
 put down
 forecast
@@ -856,7 +850,6 @@ stray from the righteous path
 drift towards saying
 lapse
 miscalculate
-wander from 
 stumble
 stutter
 splutter
@@ -950,7 +943,6 @@ realize
 find it
 decipher
 comprehend
-solve
 grasp
 resolve
 unravel

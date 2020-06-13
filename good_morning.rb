@@ -26,14 +26,14 @@ File.new('adverbs_which_have_previously_been_rated_highly.txt', 'r').read.each_l
   @words_ending_ly.push(line.tr("\n", ""))
 end
 
-@say_synonyms = []
+@verbs = []
 
-File.new('say_synonyms_no_duplicates.txt', "r").read.each_line do |line|
-  @say_synonyms.push(line.tr("\n", ""))
+File.new('verbs_no_duplicates.txt', "r").read.each_line do |line|
+  @verbs.push(line.tr("\n", ""))
 end
 
-File.new('say_synonyms_which_have_previously_been_rated_highly.txt', 'r').read.each_line do |line|
-  @say_synonyms.push(line.tr("\n", ""))
+File.new('verbs_which_have_previously_been_rated_highly.txt', 'r').read.each_line do |line|
+  @verbs.push(line.tr("\n", ""))
 end
 
 # Adverbs which modify other adverbs
@@ -73,25 +73,27 @@ def time_of_day
 end
 
 def generate_phrase
-  ly_words = [@words_ending_ly.sample]
+  ly_words = [@words_ending_ly.sample, @words_ending_ly.sample]
+
+  adverb_phrase = [ly_words[0]]
 
   punc = @punctuations_for_ad_adverbs.sample
 
   ad_adverb = [punc[0] + @ad_adverbs.sample + punc[1], nil].sample
 
-  [0, 0, 0, 0, 1].sample.times { ly_words.push(
-    [ad_adverb, @words_ending_ly.sample].compact.join(" ")
+  [0, 0, 0, 0, 1].sample.times { adverb_phrase.push(
+    [ad_adverb, ly_words[1]].compact.join(" ")
   )}
 
   punc = @punctuations_for_interrupting_clause.sample
 
-  say_synonym = @say_synonyms.sample
+  verb = @verbs.sample
 
   interrupting_clause = [
-    "as you", ly_words.join(' and '), say_synonym
+    "as you", adverb_phrase.join(' and '), verb
   ].join(' ')
 
-  ["Good#{punc[0]}#{interrupting_clause}#{punc[1]}#{time_of_day}.", ly_words, say_synonym]
+  ["Good#{punc[0]}#{interrupting_clause}#{punc[1]}#{time_of_day}.", ly_words, verb]
 end
 
 def reinforce_component_words(output)
@@ -100,7 +102,14 @@ def reinforce_component_words(output)
     adverbs.each { |adv| f << adv + "\n" }
   end
 
-  open('say_synonyms_which_have_previously_been_rated_highly.txt', 'a') { |f| f << output[2] + "\n" }
+  open('verbs_which_have_previously_been_rated_highly.txt', 'a') { |f| f << output[2] + "\n" }
+end
+
+def flag_adverbs_for_removal(output)
+  open('adverbs_to_remove_from_lexicon.txt', 'a') do |f|
+    adverbs = output[1]
+    adverbs.each { |adv| f << adv + "\n" }
+  end
 end
 
 def store_whole_phrase(output)
@@ -108,23 +117,31 @@ def store_whole_phrase(output)
 end
 
 def try_out
-  output = generate_phrase
-  puts "> " + output[0]
-  puts
-  puts "    How many stars would you give this output? (0-5)"
-  puts "    I will store any outputs rated 5."
-  puts "    For any output rated 4 or 5, the component words will be weighted more strongly."
-  rating = gets.chomp!
-  if rating == '4'
-    reinforce_component_words(output)
-    try_out
-  elsif rating == '5'
-    reinforce_component_words(output)
-    store_whole_phrase(output)
-    try_out
-  else
-    puts "    Not stored. Ah well. Try another!"
+  loop do
+    output = generate_phrase
+    puts "> " + output[0]
     puts
-    try_out
+    puts "    How many stars would you give this output? (0-5)"
+    puts "    I will store any outputs rated 5 for potential tweeting."
+    puts "    For any output rated 4 or 5, the component words will be weighted more strongly."
+    puts "    For any output rated 1, the adverbs will be removed from the lexicon."
+    puts "    For any output rated 0, the verb will be removed from the lexicon."
+    rating = gets.chomp!
+    if rating == '4'
+      reinforce_component_words(output)
+    elsif rating == '5'
+      reinforce_component_words(output)
+      store_whole_phrase(output)
+    elsif rating == '0'
+      open('verbs_to_remove_from_lexicon.txt', 'a') { |f| f << output[2] + "\n" }
+    elsif rating == '1'
+      flag_adverbs_for_removal(output)
+    elsif rating.downcase == 'exit' || rating.downcase == 'quit'
+      puts "    Goodbye!\n"
+      return
+    else
+      puts "    Not stored. Ah well. Try another!"
+      puts
+    end
   end
 end

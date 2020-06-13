@@ -166,7 +166,7 @@ alterably
 alternately
 alternatively
 altruistically
-alveolarly
+
 amateurishly
 amatively
 amazedly
@@ -180,7 +180,6 @@ ambulatorily
 amenably
 amiably
 amicably
-amitotically
 amorally
 amorously
 amorphously
@@ -432,7 +431,6 @@ basally
 basely
 bashfully
 basically
-basipetally
 bassly
 bathetically
 bathymetrically
@@ -676,7 +674,6 @@ catachrestically
 cataclysmically
 cataleptically
 catalytically
-cataphoretically
 catarrhally
 catastrophically
 catatonically
@@ -858,7 +855,6 @@ combinatorially
 combustibly
 comedically
 comelily
-comely
 comfortably
 comfortingly
 comically
@@ -899,7 +895,7 @@ complimentarily
 comply
 composedly
 compositely
-compositionally
+com
 comprehensibly
 comprehensively
 compressedly
@@ -981,7 +977,6 @@ conspiratorially
 constantly
 constituently
 constitutionally
-constitutively
 constrainedly
 constructionally
 constructively
@@ -1077,7 +1072,6 @@ coyly
 cozily
 crabbily
 craftily
-craggily
 cranially
 crankily
 crankly
@@ -1804,7 +1798,6 @@ extracorporeally
 extractively
 extrajudicially
 extralegally
-extralinguistically
 extramurally
 extraneously
 extraordinarily
@@ -2303,7 +2296,6 @@ heedfully
 heedlessly
 heftily
 heinously
-heliacally
 helically
 heliometrically
 hellaciously
@@ -2411,7 +2403,6 @@ hydroponically
 hydrostatically
 hydrothermally
 hygienically
-hymeneally
 hypabyssally
 hyperbarically
 hyperbolically
@@ -2424,7 +2415,6 @@ hypochondriacally
 hypocoristically
 hypocritically
 hypodermically
-hypostatically
 hypothetically
 hysterically
 iatrogenically
@@ -2874,7 +2864,6 @@ intravitally
 intrepidly
 intricately
 intriguingly
-intrinsically
 introductorily
 introspectively
 introversively
@@ -3279,7 +3268,6 @@ meekly
 meetly
 megalomaniacally
 megascopically
-meiotically
 melancholy
 mellifluently
 mellifluously
@@ -3335,7 +3323,7 @@ microcosmically
 microelectronically
 microelectrophoretically
 micrographically
-microphotometrically
+micro
 microphysically
 microscopically
 microtonally
@@ -3427,7 +3415,6 @@ moronically
 morosely
 morphemically
 morphogenetically
-morphologically
 morphometrically
 mortally
 mosaically
@@ -3476,7 +3463,6 @@ muskily
 mussily
 mustily
 mutably
-mutagenically
 mutationally
 mutedly
 mutely
@@ -3538,7 +3524,6 @@ nervelessly
 nervily
 nervously
 neurally
-neurasthenically
 neurogenically
 neurologically
 neuropathically
@@ -3557,7 +3542,6 @@ nimbly
 ninthly
 nippily
 nippingly
-nobbily
 nobly
 nocturnally
 nocuously
@@ -3599,7 +3583,6 @@ nounally
 novelistically
 novelly
 noxiously
-nucleophilically
 nudely
 numbingly
 numbly
@@ -3959,7 +3942,6 @@ photographically
 photolithographically
 photolytically
 photomechanically
-photometrically
 photoperiodically
 photosynthetically
 phototactically
@@ -3968,7 +3950,6 @@ phrasally
 phyletically
 phylogenetically
 physically
-physicochemically
 physiognomically
 physiologically
 phytochemically
@@ -4071,7 +4052,6 @@ portentously
 portly
 poshly
 posingly
-positionally
 positively
 positivistically
 possessedly
@@ -4083,7 +4063,7 @@ posteriorly
 posthumously
 postnatally
 postoperatively
-postpositionally
+post
 postpositively
 postsynaptically
 potentially
@@ -4140,7 +4120,7 @@ preparedly
 prepensely
 preponderantly
 preponderately
-prepositionally
+pre
 prepositively
 preposterously
 prepotently
@@ -4166,7 +4146,6 @@ prettily
 prevalently
 preveniently
 preventively
-previously
 pricelessly
 pridefully
 priestly
@@ -4376,7 +4355,6 @@ rapidly
 raptly
 rapturously
 rarely
-rascally
 rashly
 raspingly
 ratably
@@ -4401,7 +4379,6 @@ reassembly
 reassuringly
 rebarbatively
 rebelliously
-recently
 receptively
 recessively
 reciprocally
@@ -4467,7 +4444,6 @@ remotely
 removably
 remuneratively
 renewably
-repandly
 repeatedly
 repellently
 repentantly
@@ -4610,7 +4586,6 @@ ruthfully
 ruthlessly
 ruttily
 ruttishly
-sacerdotally
 sacramentally
 sacredly
 sacrificially
@@ -4967,9 +4942,7 @@ specifically
 speciously
 spectacularly
 spectrally
-spectrographically
-spectrophotometrically
-spectroscopically
+spectro
 specularly
 speculatively
 speechlessly
@@ -5425,7 +5398,6 @@ tonally
 tonelessly
 tonetically
 tonically
-tonishly
 toothily
 toothsomely
 topically
@@ -5596,7 +5568,7 @@ uncivilly
 uncleanly
 uncloudedly
 uncoercively
-uncomely
+un
 uncomfortably
 uncommonly
 uncomplainingly
@@ -5692,7 +5664,6 @@ unholily
 unholy
 unhurriedly
 unhysterically
-unicamerally
 unidirectionally
 uniformly
 unilaterally
@@ -5881,7 +5852,6 @@ venerably
 vengefully
 venially
 venomously
-venously
 ventrally
 ventriloquially
 venturesomely
