@@ -8,4 +8,4 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = ENV.fetch('TWITTER_ACCESS_TOKEN_SECRET')
 end
 
-client.update(generate_phrase)
+client.update(generate_phrase[0])

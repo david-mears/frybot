@@ -22,9 +22,17 @@ File.new('adverbs_no_duplicates.txt', 'r').read.each_line do |line|
   @words_ending_ly.push(line.tr("\n", ""))
 end
 
+File.new('adverbs_which_have_previously_been_rated_highly.txt', 'r').read.each_line do |line|
+  @words_ending_ly.push(line.tr("\n", ""))
+end
+
 @say_synonyms = []
 
 File.new('say_synonyms_no_duplicates.txt', "r").read.each_line do |line|
+  @say_synonyms.push(line.tr("\n", ""))
+end
+
+File.new('say_synonyms_which_have_previously_been_rated_highly.txt', 'r').read.each_line do |line|
   @say_synonyms.push(line.tr("\n", ""))
 end
 
@@ -62,8 +70,10 @@ def generate_phrase
 
   punc = @punctuations_for_interrupting_clause.sample
 
+  say_synonym = @say_synonyms.sample
+
   interrupting_clause = [
-    "as you", ly_words.join(' and '), @say_synonyms.sample
+    "as you", ly_words.join(' and '), say_synonym
   ].join(' ')
 
   case Time.now.hour
@@ -79,20 +89,27 @@ def generate_phrase
     @time_of_day = 'morning'
   end
 
-  "Good#{punc[0]}#{interrupting_clause}#{punc[1]}#{@time_of_day}."
+  ["Good#{punc[0]}#{interrupting_clause}#{punc[1]}#{@time_of_day}.", ly_words, say_synonym]
 end
 
 def try_out
   output = generate_phrase
-  puts "> " + output
+  puts "> " + output[0]
   puts
   puts "    How many stars would you give this output? (0-5)"
   puts "    (I will store any outputs scoring 4 or higher. I don't store the rating.)"
+  puts "    (If you like it, the component words will be weighted more strongly.)"
   rating = gets.chomp!
   if rating == '4' || rating == '5'
-    open('favourites_store.txt', 'a') do |f|
-      f << output + "\n"
+    open('favourites_store.txt', 'a') { |f| f << output[0] + "\n" }
+
+    open('adverbs_which_have_previously_been_rated_highly.txt', 'a') do |f|
+      adverbs = output[1]
+      adverbs.each { |adv| f << adv + "\n" }
     end
+
+    open('say_synonyms_which_have_previously_been_rated_highly.txt', 'a') { |f| f << output[2] + "\n" }
+
     try_out
   else
     puts "    Not stored. Ah well. Try another!"
