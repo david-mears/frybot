@@ -57,6 +57,21 @@ end
   ["", ""], ["", ""], ["", ""], ["", ""], ["", ""]
 ]
 
+def time_of_day
+  case Time.now.hour
+  when 20..24
+    return 'night'
+  when 0..4
+    return 'night'
+  when 17..19
+    return 'evening'
+  when 12..16
+    return %w[afternoon day].sample
+  else
+    return 'morning'
+  end
+end
+
 def generate_phrase
   ly_words = [@words_ending_ly.sample]
 
@@ -79,19 +94,17 @@ def generate_phrase
   ["Good#{punc[0]}#{interrupting_clause}#{punc[1]}#{time_of_day}.", ly_words, say_synonym]
 end
 
-def time_of_day
-  case Time.now.hour
-  when 20..24
-    return 'night'
-  when 0..4
-    return 'night'
-  when 17..19
-    return 'evening'
-  when 12..16
-    return %w[afternoon day].sample
-  else
-    return 'morning'
+def reinforce_component_words(output)
+  open('adverbs_which_have_previously_been_rated_highly.txt', 'a') do |f|
+    adverbs = output[1]
+    adverbs.each { |adv| f << adv + "\n" }
   end
+
+  open('say_synonyms_which_have_previously_been_rated_highly.txt', 'a') { |f| f << output[2] + "\n" }
+end
+
+def store_whole_phrase(output)
+  open('favourites_store.txt', 'a') { |f| f << output[0] + "\n" }
 end
 
 def try_out
@@ -99,19 +112,15 @@ def try_out
   puts "> " + output[0]
   puts
   puts "    How many stars would you give this output? (0-5)"
-  puts "    (I will store any outputs scoring 4 or higher. I don't store the rating.)"
-  puts "    (If you like it, the component words will be weighted more strongly.)"
+  puts "    I will store any outputs rated 5."
+  puts "    For any output rated 4 or 5, the component words will be weighted more strongly."
   rating = gets.chomp!
-  if rating == '4' || rating == '5'
-    open('favourites_store.txt', 'a') { |f| f << output[0] + "\n" }
-
-    open('adverbs_which_have_previously_been_rated_highly.txt', 'a') do |f|
-      adverbs = output[1]
-      adverbs.each { |adv| f << adv + "\n" }
-    end
-
-    open('say_synonyms_which_have_previously_been_rated_highly.txt', 'a') { |f| f << output[2] + "\n" }
-
+  if rating == '4'
+    reinforce_component_words(output)
+    try_out
+  elsif rating == '5'
+    reinforce_component_words(output)
+    store_whole_phrase(output)
     try_out
   else
     puts "    Not stored. Ah well. Try another!"
