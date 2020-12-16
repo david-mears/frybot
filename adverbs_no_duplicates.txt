@@ -1469,7 +1469,6 @@ dowdily
 downheartedly
 downrightly
 downwardly
-doyly
 dozily
 drably
 draftily
@@ -2225,7 +2224,6 @@ guilefully
 guilelessly
 guiltily
 guiltlessly
-gullably
 gullibly
 gushily
 gushingly
@@ -2233,7 +2231,6 @@ gustatorily
 gustily
 gutsily
 gymnastically
-gyrally
 gyroscopically
 habitably
 habitually
@@ -3242,7 +3239,6 @@ meekly
 meetly
 megalomaniacally
 megascopically
-melancholy
 mellifluently
 mellifluously
 mellowly
@@ -3334,7 +3330,6 @@ mistakenly
 mistily
 mistrustfully
 mitotically
-mizzly
 mnemonically
 mockingly
 modally
