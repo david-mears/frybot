@@ -37,7 +37,7 @@ File.new('verbs_which_have_previously_been_rated_highly.txt', 'r').read.each_lin
 end
 
 # Adverbs which modify other adverbs
-@ad_adverbs = ['perhaps', 'somewhat', 'tolerably', 'slightly', 'more or less', 'a little', 'sort of', 'kind of', 'fairly', 'altogether', 'perfectly', 'utterly', 'wholly', 'relatively', 'unusually', 'almost', 'nearly', 'nigh-on', 'ever so', 'so', 'quite', 'not quite', 'rather', 'not so', 'not very', 'very', 'overly', 'too', 'not too']
+@ad_adverbs = ['all too', 'perhaps', 'somewhat', 'tolerably', 'slightly', 'more or less', 'a little', 'sort of', 'kind of', 'fairly', 'altogether', 'perfectly', 'utterly', 'wholly', 'relatively', 'unusually', 'almost', 'nearly', 'nigh-on', 'ever so', 'so', 'quite', 'not quite', 'rather', 'not so', 'not very', 'very', 'overly', 'too', 'not too']
 
 @punctuations_for_interrupting_clause = [
   [", ", ", "], [", ", ", "], [", ", ", "], [", ", ", "], [", ", ", "],
